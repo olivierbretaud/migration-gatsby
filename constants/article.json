@@ -1,0 +1,85 @@
+{
+  "id": 0,
+  "date": "2025-11-13T00:00:00",
+  "slug": "combien-emprunter-en-novembre-2025-selon-la-duree",
+  "status": "publish",
+  "type": "post",
+  "link": "https://www.pretto.fr/simulation-pret-immobilier/combien-puis-je-emprunter/combien-emprunter-en-novembre-2025-selon-la-duree/",
+  "title": {
+    "rendered": "Combien emprunter en novembre 2025 sur 15, 20, 25 ans ?"
+  },
+  "meta_title": "Capacité d’emprunt novembre 2025 : prêt immobilier sur 15, 20 ou 25 ans | Pretto",
+  "meta_description": "En novembre 2025, les taux immobiliers baissent légèrement selon Pretto : 3,15 % à 3,34 % selon la durée. Voici combien vous pouvez emprunter pour différentes durées (15, 20, 25 ans).",
+  "yoast_head_json": {
+    "title": "Combien emprunter en novembre 2025 sur 15, 20, 25 ans | Pretto",
+    "description": "Simulez votre capacité d’emprunt en novembre 2025 : taux moyens, mensualités et montants pour 15, 20 ou 25 ans.",
+    "robots": {
+      "index": "index",
+      "follow": "follow"
+    },
+    "canonical": "https://www.pretto.fr/simulation-pret-immobilier/combien-puis-je-emprunter/combien-emprunter-en-novembre-2025-selon-la-duree/",
+    "schema": {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Combien emprunter en novembre 2025 sur 15, 20, 25 ans ?",
+      "description": "Pretto analyse les taux immobiliers pour novembre 2025 et indique la capacité d’emprunt possible selon la durée du prêt (15, 20, 25 ans).",
+      "author": {
+        "@type": "Person",
+        "name": "Ingrid Servaes"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Pretto",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.pretto.fr/v1612962360/logo/Favicon.svg"
+        }
+      },
+      "image": [
+        "https://www.pretto.fr/v1763039957/website/highlight/capacite_emprunt_novembre_2025.png"
+      ],
+      "datePublished": "2025-11-13T00:00:00",
+      "dateModified": "2025-11-13T00:00:00"
+    }
+  },
+  "content": {
+    "rendered": "<h2>Des taux qui baissent et des opportunités à saisir</h2>\n<p>En novembre, les taux immobiliers se stabilisent, voire reculent légèrement, de –0,02 à –0,05 point selon la grille Pretto. …</p>\n<h3>Sur 15 ans, un taux proche de 3%</h3>\n<p>… En novembre, le taux moyen (tous profils) s’affiche à 3,15 %, … capacité d’emprunt de 250 781 € …</p>\n<h3>Sur 20 ans, une petite baisse, mais un grand signal</h3>\n<p>… 3,26% en moyenne … capacité d’emprunt de 308 535 € …</p>\n<h3>Sur 25 ans, un crédit plus accessible, mais plus cher</h3>\n<p>… 3,34% en moyenne … capacité d’emprunt de 355 247 € …</p>\n<h3>Questions fréquentes</h3>\n<p>… votre taux d’endettement (35%) … … augmenter la capacité d’emprunt …</p>"
+  },
+  "excerpt": {
+    "rendered": "<p>En novembre 2025, Pretto estime des taux immobiliers entre 3,15 % et 3,34 %, permettant d’emprunter jusqu’à ~250 000 € sur 15 ans, ~308 000 € sur 20 ans, ou ~355 000 € sur 25 ans (pour un certain profil).</p>"
+  },
+  "author": 1,
+  "featured_media": null,
+  "categories": [],
+  "tags": [
+    "taux immobilier",
+    "capacité d’emprunt",
+    "novembre 2025"
+  ],
+  "acf": {
+    "profil_exemple": {
+      "revenu_mensuel": 5000,
+      "apport": 25000
+    },
+    "capacite_emprunt": [
+      {
+        "duree": "15 ans",
+        "taux": "3,15%",
+        "mensualite_max": "1750 €",
+        "montant_emprunt": "250781 €"
+      },
+      {
+        "duree": "20 ans",
+        "taux": "3,26%",
+        "mensualite_max": "1750 €",
+        "montant_emprunt": "308535 €"
+      },
+      {
+        "duree": "25 ans",
+        "taux": "3,35%",
+        "mensualite_max": "1750 €",
+        "montant_emprunt": "355247 €"
+      }
+    ]
+  }
+}
