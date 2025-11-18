@@ -108,10 +108,10 @@ export default async function ActualitePage({ params }: PostPageProps) {
   }
 
   return (
-    <article className="flex w-full max-w-3xl flex-col items-center justify-center py-32 px-16 sm:items-start">
-      <h1>{post.title.rendered}</h1>
-      <p>{new Date().toISOString()}</p>
-      <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
-    </article>
+    <main className="flex w-full max-w-3xl flex-col items-center justify-center py-32 px-16 sm:items-start">
+      <h1 className='text-3xl'>{post.title.rendered}</h1>
+      <p className='my-8'>Dernier build de la page : {new Date().toISOString()}</p>
+      <article dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+    </main>
   );
 }

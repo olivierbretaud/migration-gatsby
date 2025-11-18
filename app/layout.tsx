@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-black`}
       >
-        <nav className="w-full flex justify-center m-5 flex-center items-center gap-6 text-center">
+        <nav className="w-full flex justify-center my-5 flex-center items-center gap-6 text-center">
           <Link href={"/"}>
             Page d&apos;accueil
           </Link>

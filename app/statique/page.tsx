@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ma page statique",
+  description: "Ma page statique",
+};
+
 export default async function StatiquePage() {
 
   return (
