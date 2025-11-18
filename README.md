@@ -1,4 +1,4 @@
-# Test Technique Migration Gatsby → Framework Moderne (V2)
+# Test Technique Migration Gatsby → Framework Moderne
 
 ## Choix de Stack / Next.js
 
