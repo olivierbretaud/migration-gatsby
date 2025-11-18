@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 
 export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const post: Article | null = await fetchPostBySlug(slug, slug === 'test-article' ? true : false);
+  const post: Article | null = await fetchPostBySlug(slug);
 
 
   if (!post || post?.status !== 'publish') {
@@ -95,13 +95,13 @@ export async function generateMetadata({ params }: PostPageProps): Promise<Metad
 
 
 export async function generateStaticParams() {
-  const posts: Article[] | null = await fetchPosts(true);
+  const posts: Article[] | null = await fetchPosts();
   return posts?.map(post => ({ slug: post.slug })) || [];
 }
 
 export default async function ActualitePage({ params }: PostPageProps) {
   const { slug } = await params;
-  const post: Article | null = await fetchPostBySlug(slug, slug === 'test-article' ? true : false);
+  const post: Article | null = await fetchPostBySlug(slug);
 
   if (!post || post?.status !== 'publish') {
     notFound();

@@ -38,9 +38,6 @@ export default function RootLayout({
           <Link href={"/actualites/test-article"}>
             Page test
           </Link>
-          <Link href={"actualites/404"}>
-            Page 404
-          </Link>
         </nav>
         {children}
       </body>

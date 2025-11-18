@@ -1,6 +1,6 @@
 import article from '@/constants/article.json';
 
-export async function fetchPosts(isFake: boolean = false) {
+export async function fetchPosts(isFake: boolean = true) {
   if (isFake) {
     return [article];
   }
@@ -26,7 +26,7 @@ export async function fetchPosts(isFake: boolean = false) {
   return null;
 }
 
-export async function fetchPostBySlug(slug: string, isFake: boolean = false) {
+export async function fetchPostBySlug(slug: string, isFake: boolean = true) {
   if (isFake) {
     return article;
   }
