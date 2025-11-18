@@ -27,10 +27,7 @@ J’utilise generateMetadata pour créer toutes les balises meta ainsi que le li
 
 ## Instructions d'installation
 
-### renomer le ".env.exemple" en ".env"
-```
-  nvm use && npm install
-```
+### renomer le ".env.exemple" en ".env
 
 ### Installer les dépendances
 ```
